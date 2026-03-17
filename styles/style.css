@@ -9,6 +9,9 @@ html {
 }
 
 .page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   inline-size: 1200px;
   block-size: 100%;
   margin: auto;
@@ -36,6 +39,56 @@ ul,
 ol {
   list-style: none;
 }
+/* первый пункт */
+.content{
+  display: grid;
+  grid-template-columns: 711px 1fr;
+  grid-template-rows: auto;
+  grid-template-areas:
+    "result"
+    "content__details";
+  inline-size: 1140px;
+  gap: 30px;
+}
+
+.result{
+  align-self: flex-end;
+  grid-area: result; 
+}
+
+.search-form {
+  display: flex;
+  align-items: center;
+  margin-top: 15px;
+  gap: 40px;
+}
+
+.content__list-container {
+  position: relative;
+  block-size: 298px;
+  overflow: auto;
+}
+
+.content__details {
+  display: flex;
+  justify-content: flex-start;
+  gap: 21px;
+  flex-direction: column;
+  inline-size: 100%;
+  margin-top: 20px;
+}
+
+.result__video-container{
+  position: relative;
+  width: 711px;
+  height: 386px;
+}
+
+.result__video {
+  inline-size: 100%;
+  block-size: 100%;
+  object-fit: cover;
+}
 
 /* Кастомный скроллбар */
 .custom-scrollbar::-webkit-scrollbar {
@@ -49,3 +102,5 @@ ol {
 .custom-scrollbar::-webkit-scrollbar-thumb {
   background-color: #D9D9D9;
 }
+
+
