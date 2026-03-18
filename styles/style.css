@@ -78,6 +78,18 @@ ol {
   margin-top: 20px;
 }
 
+.title {
+  text-transform: uppercase;
+  font-family: "Oswald", sans-serif;
+  font-size: 75px;
+  font-weight: 700;
+  line-height: 70.5px;
+}
+
+.content__accent {
+  color: #545050;
+}
+
 .result__video-container{
   position: relative;
   width: 711px;
@@ -88,6 +100,70 @@ ol {
   inline-size: 100%;
   block-size: 100%;
   object-fit: cover;
+}
+
+.content__card-link{
+  color: #fff;
+  display: block;
+  text-decoration: none;
+}
+
+.content__list{
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.content__list-container{
+  position: relative;
+  block-size: 298px;
+  overflow: auto;
+}
+
+.content__video-card{
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.content__video-card-title {
+  padding: 2px 2px 5px;
+  color: #fff;
+  font-family: "Oswald", sans-serif;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 30px;
+  text-transform: uppercase;
+  hyphens: auto;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.content__video-card-description {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 4;
+  line-clamp: 4;
+  overflow: hidden;
+  padding: 0 2px;
+  color: #fff;
+  font-family: "Fira Sans Condensed", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 16.2px;
+}
+
+.content__video-card-thumbnail{
+  inline-size: 196px;
+  block-size: 103px;
+  object-fit: cover;
+  object-position: center;
+}
+.content__video-card-description-container{
+  line-clamp:inherit;
+  max-width: 194px;
+  flex-grow: 1;
 }
 
 /* Кастомный скроллбар */
