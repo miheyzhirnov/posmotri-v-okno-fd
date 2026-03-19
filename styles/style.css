@@ -250,11 +250,6 @@ ol {
   overflow: auto;
 }
 
-content__card-link {
-  display: block;
-  text-decoration: none;
-}
-
 .content__card-link:active {
   background-color: #545050;
 }
