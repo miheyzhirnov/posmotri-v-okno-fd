@@ -90,13 +90,13 @@ ol {
 }
 .search-form__textfield {
   border-top: 1px solid #fff;
-  border-right: 0px solid #fff; 
-  border-left: 0px solid #fff; 
+  border-right: 0px; 
+  border-left: 0px; 
   border-bottom: 1px solid #fff;
   font-family: inherit;
   font-size: inherit;
   font-weight: inherit;
-  line-height: 21.6px;
+  line-height: 22px;
   text-align: left;
   text-underline-position: from-font;
   text-decoration-skip-ink: none;
@@ -136,7 +136,7 @@ ol {
   display: flex; 
   margin-top: -12px;
   margin-left: -2px;
-  gap: 15px; 
+  gap: 20px; 
 }
 
 
@@ -213,7 +213,7 @@ ol {
   font-family: "Oswald", sans-serif;
   font-size: 75px;
   font-weight: 700;
-  line-height: 70.5px;
+  line-height: 75px;
 }
 
 .content__accent {
@@ -328,7 +328,7 @@ content__card-link {
   font-family: "Fira Sans Condensed", sans-serif;
   font-size: 18px;
   font-weight: 700;
-  line-height: 22.6px;
+  line-height: 22px;
   text-align: center;
   text-underline-position: from-font;
   text-decoration-skip-ink: none;
