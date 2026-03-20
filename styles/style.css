@@ -108,7 +108,7 @@ ol {
 }
 
 .search-form__textfield:active {
-  outline: px solid #fff; 
+  outline: 1px solid #fff; 
   border-left: 0px; 
   border-right: 0px;  
 }
