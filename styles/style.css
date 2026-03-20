@@ -65,17 +65,15 @@ ol {
 
 .search-form__checkbox-list {
   display: flex; 
-  margin-top: -12px;
-  margin-left: -2px;
-  gap: 15px; 
+  gap: 17px; 
 }
 
 .search-form__fieldset-title {
-  padding-bottom: 17px;
+  padding-bottom: 10px;
   font-size: 18px;
   font-weight: 400;
-  line-height: 21.6px; 
-  transform: translateY(10px);
+  line-height: 22px; 
+  
   
 }
 
@@ -88,6 +86,7 @@ ol {
   clip-path: inset(50%);
   white-space: nowrap;
 }
+
 .search-form__textfield {
   border-top: 1px solid #fff;
   border-right: 0px; 
@@ -105,19 +104,13 @@ ol {
   padding: 2px 0;
   appearance: none;
   color: white;  
-  transform: translateY(-3px); 
+  
 }
 
-.search-form__fieldset:nth-child(2) .search-form__fieldset-title {
-  transform: translateY(-2px); 
-  
-} 
-
- 
 .search-form__textfield:active {
-  outline: 1px solid #fff; 
-  border-left: 1px solid #fff; 
-  border-right: 1px solid #fff;  
+  outline: px solid #fff; 
+  border-left: 0px; 
+  border-right: 0px;  
 }
 
 .search-form__textfield:focus {
@@ -132,18 +125,10 @@ ol {
   border: none;
 }
 
-.search-form__checkbox-list {
-  display: flex; 
-  margin-top: -12px;
-  margin-left: -2px;
-  gap: 20px; 
-}
-
-
 .search-form__pseudo-checkbox {
   border: 1px solid #ffffff;
-  inline-size: 17px;
-  block-size: 17px;
+  inline-size: 19px;
+  block-size: 19px;
   background-color: transparent; 
   position: relative; 
   flex-shrink: 0; 
@@ -171,12 +156,7 @@ ol {
   padding-left: 5px;
   font-size: 18px;
   font-weight: 400;
-  line-height: 21.6px;
-}
-
-.search-form__label:hover {
-  text-decoration: underline 1px #fff;
-  text-underline-offset: 5px;
+  line-height: 22px;
 }
 
 .search-form__label:hover .search-form__label-text {
@@ -187,10 +167,6 @@ ol {
 .search-form__label:has(:focus-visible) {
   outline: 1px solid #fff;
   outline-offset: 1px;
-}
-
-.search-form__checkbox:focus-visible + .search-form__pseudo-checkbox {
-  outline: 2px solid #ffffff;
 }
 
 .content__list-container {
@@ -244,12 +220,6 @@ ol {
   gap: 30px;
 }
 
-.content__list-container{
-  position: relative;
-  block-size: 298px;
-  overflow: auto;
-}
-
 .content__card-link:active {
   background-color: #545050;
 }
@@ -301,7 +271,7 @@ ol {
   font-family: "Fira Sans Condensed", sans-serif;
   font-size: 18px;
   font-weight: 400;
-  line-height: 16.2px;
+  line-height: 16px;
 }
 
 .content__video-card-thumbnail{
